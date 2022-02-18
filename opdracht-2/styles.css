@@ -1,0 +1,61 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+.one, .two, .three, .three ul, .four, form, .five {
+   display: flex;
+}
+
+/*====== Opdracht 2.1 ======*/
+.one {
+   flex-direction: column;
+   justify-content: flex-end;
+}
+
+/*====== Opdracht 2.2 ======*/
+.two {
+   justify-content: space-between;
+}
+
+/*====== Opdracht 2.3 ======*/
+.three {
+   justify-content: space-between;
+   align-items: center;
+}
+
+.three ul {
+   list-style: none;
+}
+
+.three ul li {
+   padding-right: 4em;
+}
+
+/*====== Opdracht 2.4 ======*/
+.four {
+   justify-content: center;
+}
+
+form {
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+form input {
+   width: 100%;
+}
+
+
+/*====== Opdracht 2.5 ======*/
+.five {
+   flex-wrap: wrap;
+}
+
+.five article {
+   flex-basis: calc(1200px / 3);
+   flex-basis: 30%;
+}
+
+.five article {
+   flex-grow: 2;
+}
