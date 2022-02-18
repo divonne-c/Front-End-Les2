@@ -61,7 +61,6 @@ input:focus:first-child {
 
 
 /* Target alle heading tags op de pagina en zet hun font-family op 'Noto Sans JP', sans-serif */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 h1, h2, h3 {
     font-family: 'Noto Sans', sans-serif;
 }

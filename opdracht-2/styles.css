@@ -52,7 +52,6 @@ form input {
 }
 
 .five article {
-   flex-basis: calc(1200px / 3);
    flex-basis: 30%;
 }
 
