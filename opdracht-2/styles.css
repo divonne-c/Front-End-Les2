@@ -1,6 +1,11 @@
 /* ======================================================
    OEFENEN MET FLEXBOX
 ========================================================= */
+* {
+   box-sizing: border-box;
+   /* margin: 0; */
+}
+
 .one, .two, .three, .three ul, .four, form, .five {
    display: flex;
 }
@@ -52,9 +57,6 @@ form input {
 }
 
 .five article {
-   flex-basis: 30%;
-}
-
-.five article {
+   flex-basis: 400px;
    flex-grow: 2;
 }
